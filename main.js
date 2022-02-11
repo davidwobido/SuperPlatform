@@ -1,5 +1,3 @@
-import "./globals.css";
-
 window.addEventListener("load", () => {
   const articleImg = document.querySelector(".article-img");
   const articlePreline = document.querySelector(".article-preline");

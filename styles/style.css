@@ -3,7 +3,7 @@
 *::before {
   margin: 0;
   box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /* COLORS */
@@ -11,35 +11,23 @@
 /* FONT */
 @font-face {
   font-family: SuisseIntl;
-  src: url("../src/fonts/SuisseIntl-Regular/SuisseIntl-Regular-WebM.woff2")
-      format(woff2),
-    url("../src/fonts/SuisseIntl-Regular/SuisseIntl-Regular-WebM.woff")
-      format(woff);
+  src: url("../src/fonts/SuisseIntl-Regular/SuisseIntl-Regular-WebM.woff2") format(woff2), url("../src/fonts/SuisseIntl-Regular/SuisseIntl-Regular-WebM.woff") format(woff);
 }
 
 @font-face {
   font-family: SuisseIntl;
-  src: url("../src/fonts/SuisseIntl-Regular/SuisseIntl-RegularItalic-WebM.woff2")
-      format(woff2),
-    url("../src/fonts/SuisseIntl-Regular/SSuisseIntl-RegularItalic-WebM.woff")
-      format(woff);
+  src: url("../src/fonts/SuisseIntl-Regular/SuisseIntl-RegularItalic-WebM.woff2") format(woff2), url("../src/fonts/SuisseIntl-Regular/SSuisseIntl-RegularItalic-WebM.woff") format(woff);
   font-style: italic;
 }
 
 @font-face {
   font-family: SuisseWorks;
-  src: url("../src/fonts/SuisseWorks-Regular/SuisseWorks-Regular-WebS.woff2")
-      format(woff2),
-    url("../src/fonts/SuisseWorks-Regular/SuisseWorks-Regular-WebS.woff")
-      format(woff);
+  src: url("../src/fonts/SuisseWorks-Regular/SuisseWorks-Regular-WebS.woff2") format(woff2), url("../src/fonts/SuisseWorks-Regular/SuisseWorks-Regular-WebS.woff") format(woff);
 }
 
 @font-face {
   font-family: SuisseWorks;
-  src: url("../src/fonts/SuisseWorks-Regular/SuisseWorks-RegularItalic-WebS.woff2")
-      format(woff2),
-    url("../src/fonts/SuisseWorks-Regular/SuisseWorks-RegularItalic-WebS.woff")
-      format(woff);
+  src: url("../src/fonts/SuisseWorks-Regular/SuisseWorks-RegularItalic-WebS.woff2") format(woff2), url("../src/fonts/SuisseWorks-Regular/SuisseWorks-RegularItalic-WebS.woff") format(woff);
   font-style: italic;
 }
 
@@ -59,6 +47,31 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.large-card {
+  width: 1100px;
+  height: 28rem;
+  display: grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+      grid-template-columns: 60% 40%;
+  background-color: #f2f2f2;
+}
+
+.article-img {
+  max-height: auto;
+}
+
+.article-preline {
+  font-family: SuisseIntl, sans-serif;
+}
+
+.article-headline {
+  font-size: 2.25rem;
+  font-family: SuisseIntl, sans-serif;
+}
+
 .article-copy {
   color: #1c1c1c;
+  font-family: SuisseWorks, "Times New Roman", Times, serif;
+  font-size: 1.25rem;
 }
