@@ -6,12 +6,41 @@
   box-sizing: border-box;
 }
 
-:root {
-  /* COLORS */
-  --color-primary: #fff;
-  --color-background: #000;
+/* COLORS */
 
-  /* FONT */
+/* FONT */
+@font-face {
+  font-family: SuisseIntl;
+  src: url("../src/fonts/SuisseIntl-Regular/SuisseIntl-Regular-WebM.woff2")
+      format(woff2),
+    url("../src/fonts/SuisseIntl-Regular/SuisseIntl-Regular-WebM.woff")
+      format(woff);
+}
+
+@font-face {
+  font-family: SuisseIntl;
+  src: url("../src/fonts/SuisseIntl-Regular/SuisseIntl-RegularItalic-WebM.woff2")
+      format(woff2),
+    url("../src/fonts/SuisseIntl-Regular/SSuisseIntl-RegularItalic-WebM.woff")
+      format(woff);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: SuisseWorks;
+  src: url("../src/fonts/SuisseWorks-Regular/SuisseWorks-Regular-WebS.woff2")
+      format(woff2),
+    url("../src/fonts/SuisseWorks-Regular/SuisseWorks-Regular-WebS.woff")
+      format(woff);
+}
+
+@font-face {
+  font-family: SuisseWorks;
+  src: url("../src/fonts/SuisseWorks-Regular/SuisseWorks-RegularItalic-WebS.woff2")
+      format(woff2),
+    url("../src/fonts/SuisseWorks-Regular/SuisseWorks-RegularItalic-WebS.woff")
+      format(woff);
+  font-style: italic;
 }
 
 h1,

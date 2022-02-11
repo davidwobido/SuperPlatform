@@ -1,5 +1,3 @@
-$primary-text: #1c1c1c;
-
 *,
 *::after,
 *::before {
@@ -7,12 +5,61 @@ $primary-text: #1c1c1c;
   box-sizing: border-box;
 }
 
-:root {
-  /* COLORS */
-  --color-primary: #fff;
-  --color-background: #000;
+/* COLORS */
+$neutral-text: #1c1c1c;
+$neutral-medium: #cacaca;
+$neutral-background: #f2f2f2;
 
-  /* FONT */
+$primary-dark: #3885c7;
+$primary-medium: #86b5dd;
+$primary-light: #e7f0f8;
+
+$secondary-dark: #634a77;
+$secondary-medium: #957aac;
+$secondary-light: #eae4ee;
+
+$tertiary-dark: #b44e23;
+$tertiary-medium: #d2957b;
+$tertiary-light: #f0dcd3;
+
+$success-dark: #558448;
+$success-medium: #88b77b;
+$success-light: #e7f1e5;
+
+$warning-dark: #ae3246;
+$warning-medium: #d67080;
+$warning-light: #f7e2e6;
+
+/* FONT */
+@font-face {
+  font-family: "SuisseIntl";
+  src: url("../src/fonts/SuisseIntl-Regular/SuisseIntl-Regular-WebM.woff2")
+      format(woff2),
+    url("../src/fonts/SuisseIntl-Regular/SuisseIntl-Regular-WebM.woff")
+      format(woff);
+}
+@font-face {
+  font-family: "SuisseIntl";
+  src: url("../src/fonts/SuisseIntl-Regular/SuisseIntl-RegularItalic-WebM.woff2")
+      format(woff2),
+    url("../src/fonts/SuisseIntl-Regular/SSuisseIntl-RegularItalic-WebM.woff")
+      format(woff);
+  font-style: italic;
+}
+@font-face {
+  font-family: "SuisseWorks";
+  src: url("../src/fonts/SuisseWorks-Regular/SuisseWorks-Regular-WebS.woff2")
+      format(woff2),
+    url("../src/fonts/SuisseWorks-Regular/SuisseWorks-Regular-WebS.woff")
+      format(woff);
+}
+@font-face {
+  font-family: "SuisseWorks";
+  src: url("../src/fonts/SuisseWorks-Regular/SuisseWorks-RegularItalic-WebS.woff2")
+      format(woff2),
+    url("../src/fonts/SuisseWorks-Regular/SuisseWorks-RegularItalic-WebS.woff")
+      format(woff);
+  font-style: italic;
 }
 
 h1,
@@ -32,5 +79,5 @@ body {
 }
 
 .article-copy {
-  color: $primary-text;
+  color: $neutral-text;
 }
