@@ -3,7 +3,6 @@
 *::before {
   margin: 0;
   box-sizing: border-box;
-  box-sizing: border-box;
 }
 
 /* COLORS */
@@ -73,7 +72,6 @@ body {
   width: 80%;
   height: 28rem;
   display: grid;
-  display: grid;
   -ms-grid-columns: 3fr 2fr;
   grid-template-columns: 3fr 2fr;
   grid-gap: 2rem;
@@ -88,7 +86,6 @@ body {
 .large-card img {
   height: 100%;
   max-width: 100%;
-  object-fit: cover;
   object-fit: cover;
   border-radius: 1.25rem 0 0 1.25rem;
 }
