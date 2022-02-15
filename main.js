@@ -22,5 +22,5 @@ window.addEventListener("load", () => {
     return news;
   }
 
-  fetchNews("Ronaldo");
+  fetchNews("Berlin");
 });
