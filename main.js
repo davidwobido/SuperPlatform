@@ -1,5 +1,3 @@
-import "./globals.css";
-
 window.addEventListener("load", () => {
   const articleImg = document.querySelector(".article-img");
   const articlePreline = document.querySelector(".article-preline");
@@ -24,5 +22,5 @@ window.addEventListener("load", () => {
     return news;
   }
 
-  fetchNews("Ronaldo");
+  fetchNews("Berlin");
 });

@@ -1,0 +1,115 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* COLORS */
+
+/* FONT */
+@font-face {
+  font-family: SuisseIntl;
+  src: url("../src/fonts/SuisseIntl-Regular/SuisseIntl-Regular-WebM.woff2")
+      format(woff2),
+    url("../src/fonts/SuisseIntl-Regular/SuisseIntl-Regular-WebM.woff")
+      format(woff);
+}
+
+@font-face {
+  font-family: SuisseIntl;
+  src: url("../src/fonts/SuisseIntl-Regular/SuisseIntl-RegularItalic-WebM.woff2")
+      format(woff2),
+    url("../src/fonts/SuisseIntl-Regular/SSuisseIntl-RegularItalic-WebM.woff")
+      format(woff);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: SuisseWorks;
+  src: url("../src/fonts/SuisseWorks-Regular/SuisseWorks-Regular-WebS.woff2")
+      format(woff2),
+    url("../src/fonts/SuisseWorks-Regular/SuisseWorks-Regular-WebS.woff")
+      format(woff);
+}
+
+@font-face {
+  font-family: SuisseWorks;
+  src: url("../src/fonts/SuisseWorks-Regular/SuisseWorks-RegularItalic-WebS.woff2")
+      format(woff2),
+    url("../src/fonts/SuisseWorks-Regular/SuisseWorks-RegularItalic-WebS.woff")
+      format(woff);
+  font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 p,
+a {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: SuisseIntl, sans-serif;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.large-card {
+  width: 80%;
+  height: 28rem;
+  display: grid;
+  -ms-grid-columns: 3fr 2fr;
+  grid-template-columns: 3fr 2fr;
+  grid-gap: 2rem;
+  background-color: #f2f2f2;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-items: center;
+  border-radius: 1.25rem;
+}
+
+.large-card img {
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 1.25rem 0 0 1.25rem;
+}
+
+.large-card div {
+  margin-right: 2rem;
+}
+
+.large-card div * {
+  margin-bottom: 1rem;
+}
+
+.large-card div h4 {
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.large-card div h3 {
+  font-size: 2rem;
+  font-family: SuisseIntl, sans-serif;
+}
+
+.large-card div p {
+  color: #1c1c1c;
+  font-family: SuisseWorks, "Times New Roman", Times, serif;
+  font-size: 1.25rem;
+}
