@@ -98,37 +98,31 @@ body {
   align-items: center;
   justify-items: center;
   border-radius: 1.25rem;
-}
 
-.large-card div {
-  margin-right: 2rem;
-}
+  img {
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 1.25rem 0 0 1.25rem;
+  }
 
-.article-img {
-  height: 100%;
-  max-width: 100%;
-  object-fit: cover;
-  border-radius: 1.25rem 0 0 1.25rem;
-}
-
-.article-preline,
-.article-headline,
-.article-copy {
-  margin-bottom: 1rem;
-}
-
-.article-preline {
-  letter-spacing: 0.3rem;
-  text-transform: uppercase;
-}
-
-.article-headline {
-  font-size: 2rem;
-  font-family: "SuisseIntl", sans-serif;
-}
-
-.article-copy {
-  color: $neutral-text;
-  font-family: "SuisseWorks", "Times New Roman", Times, serif;
-  font-size: 1.25rem;
+  div {
+    margin-right: 2rem;
+    * {
+      margin-bottom: 1rem;
+    }
+    h4 {
+      letter-spacing: 0.3rem;
+      text-transform: uppercase;
+    }
+    h3 {
+      font-size: 2rem;
+      font-family: "SuisseIntl", sans-serif;
+    }
+    p {
+      color: $neutral-text;
+      font-family: "SuisseWorks", "Times New Roman", Times, serif;
+      font-size: 1.25rem;
+    }
+  }
 }
